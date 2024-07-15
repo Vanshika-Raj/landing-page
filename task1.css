@@ -1,0 +1,157 @@
+:root {
+    --primary-color: #2F855A;
+    --secondary-color: #38B2AC;
+    --background-color: #F7FAFC;
+    --text-color: #2D3748;
+    --header-bg-color: #E6FFFA;
+    --header-text-color: #2D3748;
+    --button-bg-color: #38B2AC;
+    --button-hover-bg-color: #2F855A;
+    --footer-bg-color: #2D3748;
+    --footer-text-color: #E2E8F0;
+}
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+}
+
+/* Header (Hero Section) styling */
+header.hero {
+    background: var(--header-bg-color);
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+header .hero-content h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+header .hero-content p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.cta-button {
+    background: var(--button-bg-color);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background: var(--button-hover-bg-color);
+}
+
+.guarantee {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+/* Content Section styling */
+.content-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+    background-color: #fff;
+}
+
+.service {
+    text-align: center;
+    max-width: 300px;
+    margin: 1rem;
+}
+
+.service h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.service p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.service-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Features Section styling */
+.features {
+    background-color: var(--background-color);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem;
+    vertical-align: top;
+}
+
+.feature h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.feature p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.feature-image {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Map Section styling */
+.map-section {
+    background-color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.map-section h2 {
+    font-size: 2rem;
+}
+
+.map-info {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.map-info p {
+    margin-top: 0.5rem;
+}
+
+/* Footer styling */
+footer {
+    background: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
